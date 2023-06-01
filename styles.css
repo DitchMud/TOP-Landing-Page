@@ -65,3 +65,52 @@ nav a {
     width: 405px;
     height: auto;
 }
+
+.card {
+    border-radius: 10px;
+    border: solid blue 2px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: ;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.cards p {
+    display: block;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards1 p, h1 {
+    text-align: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 70px 70px;
+}
+
+.quote h4 {
+    width: 750px;
+    margin: auto;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote p {
+    text-align: right;
+    width: 800px;
+    font-weight: 900;
+    font-size: 30px;
+}
